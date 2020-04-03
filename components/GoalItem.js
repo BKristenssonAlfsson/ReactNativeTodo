@@ -1,9 +1,10 @@
 import React from 'react';
+import { StyleSheet, View, Text, } from 'react-native';
 
 const GoalItem = props => {
     return (
     <View style={styles.listItem}>
-        <Text>{itemData.item}</Text>
+        <Text>{props.title}</Text>
     </View>
     );
 };
